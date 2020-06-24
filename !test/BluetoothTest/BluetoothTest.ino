@@ -4,7 +4,7 @@ BluetoothSerial SerialBT;
 
 void setup()
 {
-	Serial.begin(9600);
+	Serial.begin(115200);
 	SerialBT.begin("ESP32-13736");
 }
 
